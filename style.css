@@ -82,7 +82,7 @@ body{
 }
 @media(min-width:1024px){
     body{
-        padding: 0px 55px;
+        padding: 0px 66px;
     }
     .nav__hamburger,.nav__cart{
         display: none;
@@ -98,5 +98,49 @@ body{
         display: flex;
         flex-direction: column;
         font-size: 46px;
+    }
+    ul {
+        list-style-type: none;
+        font-size: 18px;
+        color: grey;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding-left: 0px;
+    }
+   
+    .menu__about{
+        text-decoration: line-through;
+        text-decoration-color: rgb(255, 100, 100);
+    }
+    .content__container{
+        margin-top: -32rem;
+        margin-left: 19rem;
+    }
+    .content__heading{
+        font-size: 5rem;
+        width: 39rem;
+    }
+    .single__holder {
+        width: 17%;
+        height: 14rem;
+    }
+    .img__text{
+        font-size: 16px;
+    }
+    .image1__container{
+        inset: 40px;
+    }
+    .content2__container{
+     margin-top:-30rem ;
+     width: 11rem;
+     margin-left: 63rem;
+    }
+    .content2{
+     font-size: 17px;
+     word-spacing: 2px;
+     line-height: 1.4;
+     width: 13rem;
+     
     }
 }
